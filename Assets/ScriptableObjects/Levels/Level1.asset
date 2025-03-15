@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b43fb636fb61aba43a2b5ad880a747a9, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  waves:
+  - zombiePrefabs:
+    - {fileID: 1439360974597154040, guid: 5920da0eb6a0b7a489973f1871f27c77, type: 3}
+    zombieCount: 1
+    delay: 0
+    remainingZombies: 3
+  - zombiePrefabs:
+    - {fileID: 1439360974597154040, guid: 5920da0eb6a0b7a489973f1871f27c77, type: 3}
+    zombieCount: 1
+    delay: 0
+    remainingZombies: 0
+  - zombiePrefabs:
+    - {fileID: 1439360974597154040, guid: 5920da0eb6a0b7a489973f1871f27c77, type: 3}
+    zombieCount: 2
+    delay: 0
+    remainingZombies: 3
+  - zombiePrefabs:
+    - {fileID: 1439360974597154040, guid: 5920da0eb6a0b7a489973f1871f27c77, type: 3}
+    zombieCount: 2
+    delay: 0
+    remainingZombies: 3
+  - zombiePrefabs:
+    - {fileID: 1439360974597154040, guid: 5920da0eb6a0b7a489973f1871f27c77, type: 3}
+    zombieCount: 3
+    delay: 0
+    remainingZombies: 3
+  lanesToUse: 0000000001000000010000000100000000000000
+  unlockedSeedSO: {fileID: 11400000, guid: b99ab204edb8ac246b214549fcd0bcbe, type: 2}

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ef3547ed11ff8b94b88cf6d8045da855
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 43736
+  packageName: Android Native Functions
+  packageVersion: 1.3.3
+  assetPath: Assets/AndroidNativeFunctions/Editor/AndroidNativeFunctionsEditor.cs
+  uploadId: 82155

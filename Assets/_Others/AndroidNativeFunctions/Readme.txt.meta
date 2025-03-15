@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e92dff785468e054fb4666e00404f91a
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 43736
+  packageName: Android Native Functions
+  packageVersion: 1.3.3
+  assetPath: Assets/AndroidNativeFunctions/Readme.txt
+  uploadId: 82155

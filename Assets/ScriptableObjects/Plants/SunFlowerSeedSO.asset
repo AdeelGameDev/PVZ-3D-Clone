@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01c670cabfa46d48886840813144603, type: 3}
+  m_Name: SunFlowerSeedSO
+  m_EditorClassIdentifier: 
+  plant: {fileID: 4429385958302069533, guid: 35bfea28a0adb5c4db69fd981ac30063, type: 3}
+  seedCost: 50
+  seedPlantName: SunFlower
+  seedRechargeTime: 7.5
+  seedIconImage: {fileID: 0}
