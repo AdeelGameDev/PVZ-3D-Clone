@@ -36,6 +36,10 @@ public class RemoveButtonUI : MonoBehaviour
 
     private void UpdateVisual()
     {
-        buttonOutline.enabled = removeToolSelected;
+        if (buttonOutline != null)
+        {
+            buttonOutline.enabled = removeToolSelected;
+        }
     }
+
 }
