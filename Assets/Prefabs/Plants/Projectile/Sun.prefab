@@ -98,7 +98,7 @@ MonoBehaviour:
   sunValue: 25
   lifetime: 5
   fadeDuration: 2
-  meshRenderer: {fileID: 0}
+  meshRenderer: {fileID: 5112220638431636855}
 --- !u!1001 &5851253662525026803
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -168,6 +168,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ca38132e55764e468c1b17bee180b37, type: 3}
+--- !u!23 &5112220638431636855 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 5ca38132e55764e468c1b17bee180b37, type: 3}
+  m_PrefabInstance: {fileID: 5851253662525026803}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6249146118576051736 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ca38132e55764e468c1b17bee180b37, type: 3}

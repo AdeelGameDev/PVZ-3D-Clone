@@ -49,8 +49,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropSun: {fileID: 6736491590090632044, guid: 09c2a159bd5172d448e18186a276d449, type: 3}
+  dropSunSpawnPoint: {fileID: 0}
+  zombieLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
   sunPrefab: {fileID: 7328951310887587403, guid: 09c2a159bd5172d448e18186a276d449, type: 3}
-  generationInterval: 13
+  generationInterval: 15
   sunSpawnPoint: {fileID: 7000607945883685103}
 --- !u!95 &7233266965875966089
 Animator:
