@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: lifetime
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 6736491590090632044, guid: 09c2a159bd5172d448e18186a276d449, type: 3}
+      propertyPath: meshRenderer
+      value: 
+      objectReference: {fileID: 8782308276968117303}
     - target: {fileID: 7328951310887587403, guid: 09c2a159bd5172d448e18186a276d449, type: 3}
       propertyPath: m_Name
       value: FallingSun
@@ -69,3 +73,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09c2a159bd5172d448e18186a276d449, type: 3}
+--- !u!23 &8782308276968117303 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5112220638431636855, guid: 09c2a159bd5172d448e18186a276d449, type: 3}
+  m_PrefabInstance: {fileID: 4545054846520867136}
+  m_PrefabAsset: {fileID: 0}
