@@ -7374,6 +7374,7 @@ GameObject:
   - component: {fileID: 658439795}
   - component: {fileID: 658439794}
   - component: {fileID: 658439797}
+  - component: {fileID: 658439798}
   m_Layer: 5
   m_Name: ArrowUI
   m_TagString: Untagged
@@ -7397,8 +7398,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 219.311, y: -186.7}
-  m_SizeDelta: {x: 43.4303, y: 30.9999}
+  m_AnchoredPosition: {x: 228.65, y: -197.4}
+  m_SizeDelta: {x: 69.1501, y: 49.3583}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &658439794
 MonoBehaviour:
@@ -7407,7 +7408,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658439792}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
@@ -7467,6 +7468,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveAmount: 12.5
   duration: 0.5
+--- !u!114 &658439798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658439792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.8509804}
+  m_EffectDistance: {x: 4, y: -4}
+  m_UseGraphicAlpha: 1
 --- !u!1 &665266391
 GameObject:
   m_ObjectHideFlags: 0
