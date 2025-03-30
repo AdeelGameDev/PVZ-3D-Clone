@@ -7,6 +7,7 @@ public class SunCounterUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI sunCountText;
     [SerializeField] private int numberOfFlashes; // Corrected spelling
     [SerializeField] private int flashDelay;
+    [SerializeField] private RectTransform sunPosition;
 
     private Color originalColor; // Cache the original color
 
@@ -16,6 +17,8 @@ public class SunCounterUI : MonoBehaviour
         SunCounter.OnSeedNotPurchasable += FlashRed;
         originalColor = sunCountText.color; // Cache the original text color once
     }
+
+    public RectTransform GetSunPosition() => sunPosition;
 
     private async void FlashRed()
     {
