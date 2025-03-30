@@ -973,6 +973,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseButton: {fileID: 1818513040}
+  pauseText: {fileID: 1505847609}
   pausedUI: {fileID: 2117121908}
 --- !u!1001 &104762363
 PrefabInstance:
@@ -15648,7 +15649,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -29.7583, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1505847609
 MonoBehaviour:
@@ -15697,10 +15698,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 41.86
+  m_fontSize: 49.65
   m_fontSizeBase: 41.86
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1

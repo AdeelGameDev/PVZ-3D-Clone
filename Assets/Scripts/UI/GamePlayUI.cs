@@ -1,9 +1,11 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class GamePlayUI : MonoBehaviour
 {
     [SerializeField] private Button pauseButton;
+    [SerializeField] private TextMeshProUGUI pauseText;
     [SerializeField] private RectTransform pausedUI;
     private bool isPaused = false;
     private AudioSource[] allAudioSources;
@@ -13,6 +15,7 @@ public class GamePlayUI : MonoBehaviour
         pauseButton.onClick.AddListener(TogglePause);
         allAudioSources = FindObjectsOfType<AudioSource>();
         pausedUI.gameObject.SetActive(false); // Ensure paused UI starts hidden
+        UpdatePauseText();
     }
 
     private void TogglePause()
@@ -28,5 +31,12 @@ public class GamePlayUI : MonoBehaviour
             else
                 audio.UnPause();
         }
+
+        UpdatePauseText();
+    }
+
+    private void UpdatePauseText()
+    {
+        pauseText.text = isPaused ? "UnPause" : "Pause";
     }
 }
