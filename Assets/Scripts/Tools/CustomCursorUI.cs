@@ -18,14 +18,24 @@ public class CustomCursorI : MonoBehaviour
 
         // Adjust the position to align the hotspot correctly
         cursorImage.rectTransform.pivot = new Vector2(0.5f, 0.5f); // Ensure the pivot is at the center
+
+        // Hide the custom cursor on Android
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            cursorImage.enabled = false;
+        }
     }
 
     void Update()
     {
-        // Get the current mouse position
-        Vector2 mousePos = Input.mousePosition;
+        // If the platform is not Android, move the cursor
+        if (Application.platform != RuntimePlatform.Android)
+        {
+            // Get the current mouse position
+            Vector2 mousePos = Input.mousePosition;
 
-        // Adjust the cursor's position by subtracting the hotspot offset
-        cursorRectTransform.position = new Vector2(mousePos.x - cursorHotspot.x, mousePos.y - cursorHotspot.y);
+            // Adjust the cursor's position by subtracting the hotspot offset
+            cursorRectTransform.position = new Vector2(mousePos.x - cursorHotspot.x, mousePos.y - cursorHotspot.y);
+        }
     }
 }
