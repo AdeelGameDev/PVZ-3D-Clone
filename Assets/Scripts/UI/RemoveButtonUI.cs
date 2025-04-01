@@ -17,8 +17,16 @@ public class RemoveButtonUI : MonoBehaviour
 
     private void Start()
     {
+        if (PlayerPrefs.GetInt("Level") == 0)
+        {
+            gameObject.SetActive(false);
+            return;
+        }
+
         UpdateVisual();
         GrassPatch.OnPlantRemoved += GrassPatch_OnPlantRemoved;
+
+
     }
 
     private void ToggleRemoveTool()
