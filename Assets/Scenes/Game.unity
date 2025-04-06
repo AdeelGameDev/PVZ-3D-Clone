@@ -6348,7 +6348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sunPrefab: {fileID: 6532169092950767371, guid: 2687431df89ccda4a926a6a19019d046, type: 3}
-  spawnInterval: 11
+  spawnInterval: 8
   startDelay: 0
   xRange: {x: -8, y: 8}
   zRange: {x: -4, y: 4}
