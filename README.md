@@ -1,4 +1,4 @@
-🌻 Plants vs. Zombies 3D (Unity Project)
+**🌻 Plants vs. Zombies 3D (Unity Project)**
 Recreated one of my favorite classic games, Plants vs. Zombies by PopCap Games — this time in 3D using Unity!
 
 It was a fun project where I built the core gameplay from scratch, focusing on capturing the original game's feel with a simple 3D style.
@@ -35,5 +35,3 @@ Made with: Unity
 💬 Feedback
 I'm actively improving the project!
 Feel free to share your feedback — it really helps.
-
-#️⃣ #Unity3D #IndieDev #GameDev #MadeWithUnity #PlantsVsZombies #ItchIo
