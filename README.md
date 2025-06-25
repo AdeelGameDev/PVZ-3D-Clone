@@ -35,3 +35,7 @@ Made with: Unity
 💬 Feedback
 I'm actively improving the project!
 Feel free to share your feedback — it really helps.
+
+## 📜 License
+
+Licensed under the [MIT License](LICENSE).
