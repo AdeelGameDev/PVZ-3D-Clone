@@ -28,7 +28,7 @@ public class DoubleBackToExit : MonoBehaviour
                 timeSinceLastBackButtonPress = Time.time;
 
                 // Show the toast message using Android native functions
-                AndroidNativeFunctions.ShowToast("Tap again to exit", true);
+               // AndroidNativeFunctions.ShowToast("Tap again to exit", true);
                 StartCoroutine(ResetBackButtonPress());
             }
         }

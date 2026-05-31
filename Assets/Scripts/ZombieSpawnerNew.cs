@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Zenject;
 
 public class ZombieSpawnerNew : MonoBehaviour
 {
@@ -11,8 +10,7 @@ public class ZombieSpawnerNew : MonoBehaviour
     public List<Transform> currentSpawnPoints = new List<Transform>();  // List of spawn points
     private int currentWave = 0;              // Index of the current wave
 
-    [Inject]
-    private LevelManager levelManager;
+    [SerializeField] private LevelManager levelManager;
 
     public static event Action<SeedSO> OnLevelCompleted;
 

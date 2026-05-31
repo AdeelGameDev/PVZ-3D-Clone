@@ -9370,6 +9370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RecordAudio: 1
+  m_Settings: {fileID: 0}
 --- !u!4 &277063229
 Transform:
   m_ObjectHideFlags: 0
@@ -50288,6 +50289,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 4986629195613686463, guid: 64e732b81c1ea6846bf6bb408d1e7d4d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5245696722659828670, guid: 64e732b81c1ea6846bf6bb408d1e7d4d, type: 3}
       propertyPath: m_Name
       value: Lane 5
@@ -52444,6 +52449,7 @@ MonoBehaviour:
   startDelay: 2
   spawnDelay: 5
   currentSpawnPoints: []
+  levelManager: {fileID: 437133258}
 --- !u!1 &1671606341
 GameObject:
   m_ObjectHideFlags: 0
@@ -58061,21 +58067,28 @@ MonoBehaviour:
   - {fileID: 1827750372}
   _installerPrefabs: []
   _autoRun: 1
+  <Initialized>k__BackingField: 0
   OnPreInstall:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   OnPostInstall:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   OnPreResolve:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   OnPostResolve:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   _parentNewObjectsUnderSceneContext: 0
   _contractNames: []
   _parentContractNames: []
+  _hasInstalled: 0
+  _hasResolved: 0
 --- !u!114 &1827750372
 MonoBehaviour:
   m_ObjectHideFlags: 0
